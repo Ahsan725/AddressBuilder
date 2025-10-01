@@ -41,7 +41,7 @@ public class AddressBuilder {
 
         System.out.println("Enter " + addType + " State: ");
         result.append(sc.nextLine());
-        result.append(", ");
+        result.append(" ");
 
         System.out.println("Enter " + addType + " zip: ");
         result.append(sc.nextLine());

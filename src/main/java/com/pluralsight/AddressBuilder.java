@@ -23,7 +23,6 @@ public class AddressBuilder {
     public static String addressBuilder(String addType){
         //all variables
         var result = new StringBuilder(); //I will return it as a string at the end
-        String billingAddress;
         String city;
         String state;
         String zip;
@@ -49,5 +48,4 @@ public class AddressBuilder {
 
         return result.toString();
     }
-
 }

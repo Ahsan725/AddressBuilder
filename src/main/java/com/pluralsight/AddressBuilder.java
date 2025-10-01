@@ -17,7 +17,7 @@ public class AddressBuilder {
         var shippingAddress = addressBuilder("shipping");
 
         //printing results
-        System.out.println(name + "\n" + "\n" + billingAddress + "\n" + "\n" + shippingAddress);
+        System.out.println(name + "\n\n" + billingAddress + "\n\n" + shippingAddress);
     }
 
     public static String addressBuilder(String addType){
@@ -33,7 +33,7 @@ public class AddressBuilder {
 
         System.out.println("Enter " + addType + " Street: ");
         result.append(sc.nextLine());
-        result.append(", ");
+        result.append("\n");
 
         System.out.println("Enter " + addType + " City: ");
         result.append(sc.nextLine());
